@@ -1,3 +1,13 @@
+import HeroSection from "@/components/container/HeroSection";
+import PopularCategories from "@/components/container/PopularCategories";
+
 export default function LandingPage() {
-  return <div>i landed here</div>;
+  return (
+    <>
+      <main>
+        <HeroSection />
+        <PopularCategories />
+      </main>
+    </>
+  );
 }
